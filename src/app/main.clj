@@ -1,8 +1,5 @@
-(ns app.main)
-
-(defn hello-world
-  []
-  (println "Hello, World!"))
+(ns app.main
+  (require [app.helloworld.example :refer [hello-world]]))
 
 (defn -main
   []
