@@ -1,4 +1,4 @@
-(ns app.flowcontrol.if_example)
+(ns app.flowcontrol.if)
 
 (if true
   (println "Heyaaa")
